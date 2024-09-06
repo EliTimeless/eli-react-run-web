@@ -1,12 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
+import DirectionsRunIcon from "@mui/icons-material/DirectionsRun";
 
 function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <Link to="/">Běhna</Link>
+        <Link to="/">
+          <h1 className="p-3">
+            Běhna <DirectionsRunIcon fontSize="10px"></DirectionsRunIcon>
+          </h1>
+        </Link>
       </div>
       <ul className="navbar-links">
         <li>
@@ -31,7 +36,7 @@ function Navbar() {
           <Link to="/akce">Závody a akce</Link>
         </li>
         <li>
-          <Link to="/kontakty">Contacts</Link>
+          <Link to="/kontakty">Kontakty</Link>
         </li>
         <li>
           <Link to="/faq">FAQ</Link>

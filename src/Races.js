@@ -3,8 +3,9 @@ import "./App.css";
 
 function Races() {
   return (
-    <div>
-      <h2> Běžecké závody a akce</h2>
+    <div className="m-2 p-2">
+      {" "}
+      <h2 className="mt-4 mb-5"> Běžecké závody a akce</h2>
       <p>
         Kalendář závodů: Přehled nadcházejících běžeckých závodů ve vašem
         regionu. Příprava na závod: Tipy, jak se připravit na závodní den, co si

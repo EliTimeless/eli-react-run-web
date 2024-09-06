@@ -3,8 +3,9 @@ import "./App.css";
 
 function Prevention() {
   return (
-    <div>
-      <h2>Prevence zranění a regenerace</h2>
+    <div className="m-2 p-2">
+      {" "}
+      <h2 className="mt-4 mb-5">Prevence zranění a regenerace</h2>
       <p>
         Běžné běžecké zranění: Jak předcházet zraněním jako je plantární
         fasciitida, zánět šlach nebo bolesti kolen. Protahování a posilování:
