@@ -1,6 +1,5 @@
 import React from "react";
-import "./App.css";
-
+import "../App.css";
 function Faq() {
   return (
     <div className="m-2 p-2">

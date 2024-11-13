@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./App.css";
+import "../App.css";
 import DirectionsRunIcon from "@mui/icons-material/DirectionsRun";
 
 function Navbar() {
@@ -8,9 +8,9 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-logo">
         <Link to="/">
-          <h1 className="p-3">
+          <div className="p-3 headRun">
             Běhna <DirectionsRunIcon fontSize="10px"></DirectionsRunIcon>
-          </h1>
+          </div>
         </Link>
       </div>
       <ul className="navbar-links">

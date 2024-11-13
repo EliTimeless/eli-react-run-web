@@ -1,15 +1,17 @@
 import React from "react";
 import Weather from "./Weather";
-import "./App.css";
+import "../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Main() {
   return (
-    <div>
-      <div className="row m-4 p-4">
-        <h2 className="col-12 col-sm-6 mb-6">Běhna tě vítá!!</h2>
+    <div className="container-fluid">
+      <div className="row m-2 p-4">
+        <h1 className="col-12 col-sm-6 mb-6">Běhna tě vítá!!</h1>
         <div className="col-12 col-md-6 mb-6">
-          <Weather />
+          <Weather temperature={29} city={"Praha"} />
+          <Weather temperature={33} city={"Pisa"} />{" "}
+          <Weather temperature={15} city={"Stockholm"} />
         </div>{" "}
         <div className="p-4 m-4"></div>
       </div>
@@ -28,20 +30,36 @@ function Main() {
 
         <div className="col-3 col-sm-3 ">
           <h4 className="">Závody</h4>
-          <div>
-            <span className="m-2">3.11.2024</span>New york
+          <div className="mainRaces">
+            <span className="m-2">24.11.2024</span>{" "}
+            <a href="https://worldsmarathons.com/marathon/florence-marathon">
+              Florence Marathon / Itálie
+            </a>{" "}
           </div>
-          <div>
-            <span className="m-2">18.5.2025</span>Great Wall Marathon
+          <div className="mainRaces">
+            <span className="m-2">24.11.2024</span>
+            <a href="https://worldsmarathons.com/marathon/milano21-half-marathon">
+              Milano Marathon / Itálie
+            </a>
           </div>
-          <div>
-            <span className="m-2">21.9.2024</span>Sydney City Run
+
+          <div className="mainRaces">
+            <span className="m-2">24.11.2024</span>
+            <a href="https://worldsmarathons.com/marathon/the-york-15k-5k-10k-half-marathon-morun">
+              York / Spojené království
+            </a>
           </div>
-          <div>
-            <span className="m-2">30.9.2024</span>Ultra Trail du Mont Blanc
+          <div className="mainRaces">
+            <span className="m-2">24.11.2024</span>{" "}
+            <a href="https://worldsmarathons.com/marathon/trail-do-trabulo">
+              Sátão / Portugalsko
+            </a>
           </div>
-          <div>
-            <span className="m-2">30.9.2024</span>Rio Night Run Datum
+          <div className="mainRaces">
+            <span className="m-2">1.12.2024</span>{" "}
+            <a href="https://worldsmarathons.com/marathon/torino-city-marathon">
+              Torino Marathon / Italy
+            </a>{" "}
           </div>
         </div>
 
