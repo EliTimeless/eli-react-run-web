@@ -1,6 +1,6 @@
 🏃‍♀️ Běhna Webpage
 
-Welcome to the **Běhna** webpage, a project that highlights the latest innovations, events, and interesting facts from the world of running. This webpage includes information on the latest trends in running, upcoming races worldwide, and fun facts about the running community.
+Welcome to the **Běhna** webpage, a project that highlights the latest innovations, events, and interesting facts from the world of running. This webpage includes information on the latest trends in running, upcoming races in Europe, and fun facts about the running community.
 
 **Live Demo**: [Běhna on Netlify](https://behna-web.netlify.app)
 
@@ -90,7 +90,7 @@ Feel free to open issues, submit PRs, or suggest improvements!
 
 🏃‍♀️ WEBOVÁ STRÁNKA O BĚHÁNÍ BĚHNA
 
-Vítejte na stránce Běhna – projektu, který přináší nejnovější inovace, události a zajímavosti ze světa běhu. Webová stránka zahrnuje informace o nejnovějších trendech, nadcházejících závodech po celém světě a zajímavá fakta o běžecké komunitě.
+Vítejte na stránce Běhna – projektu, který přináší nejnovější inovace, události a zajímavosti ze světa běhu. Webová stránka zahrnuje informace o nejnovějších trendech, nadcházejících závodech po celé Evropě a zajímavá fakta o běžecké komunitě.
 
 Živá ukázka: [Běhna na Netlify](https://behna-web.netlify.app)
 
