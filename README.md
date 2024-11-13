@@ -1,70 +1,171 @@
-# Getting Started with Create React App
+🏃‍♀️ Běhna Webpage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Běhna** webpage, a project that highlights the latest innovations, events, and interesting facts from the world of running. This webpage includes information on the latest trends in running, upcoming races in Europe, and fun facts about the running community.
 
-## Available Scripts
+**Live Demo**: [Běhna on Netlify](https://behna-web.netlify.app)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+🏃‍♀️ Project Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The **Running News** webpage provides a simple and stylish layout with three main sections:
+1. **News**: Updates on the latest innovations in the running world for the year 2024.
+2. **Upcoming Races**: A curated list of upcoming races worldwide with dates and locations.
+3. **Fun Facts**: Interesting insights and facts about running and its cultural significance around the globe.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🏃‍♀️ Project Structure
 
-### `npm test`
+This project is built using **HTML, CSS (Bootstrap), and JavaScript (React)**. Here's the structure:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **index.html** - Main HTML structure.
+- **styles.css** - Custom styling for the webpage layout.
+- **App.js** - React component structure for rendering different sections.
+- **Netlify configuration** - Deployed on Netlify with automated updates from GitHub.
 
-### `npm run build`
+🏃‍♀️ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Responsive Design**: Mobile-friendly and responsive layout using Bootstrap grid.
+- **Dynamic Content**: Sections for the latest news, upcoming events, and interesting facts.
+- **Netlify Deployment**: Deployed with automatic CI/CD on Netlify for quick access and updates.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+🏃‍♀️ Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To set up this project locally, follow these steps:
 
-### `npm run eject`
+### Prerequisites
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Install [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (comes with Node.js)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/running-news-webpage.git
+   cd running-news-webpage
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Run the project locally:
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   This will start the development server and open the webpage in your default browser at `http://localhost:3000`.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Building for Production
 
-### Code Splitting
+To create a production build, run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm run build
+```
 
-### Analyzing the Bundle Size
+This will output optimized files in the `build` folder, which can then be deployed manually if needed.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+🏃‍♀️ Deployment on Netlify
 
-### Making a Progressive Web App
+The project is deployed on Netlify, making it accessible at: [https://behna-web.netlify.app](https://behna-web.netlify.app)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Steps to Deploy
 
-### Advanced Configuration
+1. **Login to [Netlify](https://www.netlify.com/)**
+2. **Connect the GitHub Repository**: Link your project repo to Netlify.
+3. **Deploy Settings**:
+   - Build command: `npm run build`
+   - Publish directory: `build`
+4. **Continuous Deployment**: Netlify will automatically deploy any changes pushed to the main branch.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🏃‍♀️ Contributing
 
-### Deployment
+Feel free to open issues, submit PRs, or suggest improvements!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+//////
+
+🏃‍♀️ WEBOVÁ STRÁNKA O BĚHÁNÍ BĚHNA
+
+Vítejte na stránce Běhna – projektu, který přináší nejnovější inovace, události a zajímavosti ze světa běhu. Webová stránka zahrnuje informace o nejnovějších trendech, nadcházejících závodech po celé Evropě a zajímavá fakta o běžecké komunitě.
+
+Živá ukázka: [Běhna na Netlify](https://behna-web.netlify.app)
+
+🏃‍♀️Přehled projektu
+Running News je jednoduchá a stylová webová stránka se třemi hlavními sekcemi:
+
+- Novinky: Aktuality o nejnovějších inovacích v běžeckém světě pro rok 2024.
+- Nadcházející závody: Výběr závodů z celého světa s daty a místy konání.
+- Zajímavosti: Zajímavé informace a postřehy o běhu a jeho kulturním významu.
+
+🏃‍♀️Struktura projektu
+Projekt je vytvořen pomocí HTML, CSS (Bootstrap) a JavaScriptu (React). 
+Zde je struktura:
+- index.html - hlavní struktura HTML.
+- styles.css - vlastní stylování pro rozložení stránky.
+- App.js - struktura komponent v Reactu pro vykreslení různých sekcí.
+Netlify konfigurace - nasazeno na Netlify s automatickými aktualizacemi z GitHubu.
+
+🏃‍♀️Vlastnosti
+- Responzivní design: Rozložení přizpůsobené mobilním zařízením s použitím Bootstrap gridu.
+- Dynamický obsah: Sekce pro nejnovější zprávy, nadcházející závody a zajímavosti.
+- Nasazení na Netlify: Nasazeno s automatickým CI/CD na Netlify pro snadný přístup a aktualizace.
+
+🏃‍♀️Jak začít
+
+Pro nastavení projektu lokálně postupujte podle těchto kroků:
+
+Předpoklady
+- Nainstalujte Node.js a npm (součástí Node.js)
+- Instalace
+- Naklonujte si repozitář:
+
+bash
+Zkopírovat kód
+git clone https://github.com/your-username/running-news-webpage.git
+cd running-news-webpage
+
+Nainstalujte závislosti:
+
+bash
+Zkopírovat kód
+npm install
+
+Spusťte projekt lokálně:
+
+bash
+Zkopírovat kód
+npm start
+
+Tento příkaz spustí vývojový server a otevře stránku v prohlížeči na http://localhost:3000.
+
+🏃‍♀️Vytvoření produkční verze
+
+Pro vytvoření produkční verze spusťte:
+
+bash
+Zkopírovat kód
+npm run build
+To vygeneruje optimalizované soubory ve složce build, které lze následně ručně nasadit, pokud je to potřeba.
+
+🏃‍♀️Nasazení na Netlify
+
+Projekt je nasazen na Netlify, kde je přístupný na adrese: https://behna-web.netlify.app
+
+Kroky k nasazení
+
+Přihlaste se na Netlify
+Propojte GitHub repozitář: Propojte repozitář projektu s Netlify.
+Nastavení nasazení:
+Příkaz pro build: npm run build
+Složka pro publikaci: build
+Kontinuální nasazení: Netlify automaticky nasadí veškeré změny, které budou nahrány do hlavní větve.
+
+
+🤝 Přispívání
+
+Neváhejte otevřít issue, poslat PR nebo navrhnout vylepšení!
+
